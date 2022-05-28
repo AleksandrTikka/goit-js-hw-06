@@ -11,7 +11,7 @@ incrementBtn.addEventListener('click', incrementValue);
 function decrementValue () {
     counterValue -= 1;
     counterEl.textContent = counterValue;
-    console.log('добавляю единицу к значению');
+    console.log('отнимаю единицу от значения');
     console.log('новое значение: ', counterEl.textContent);
 }
 
